@@ -19,7 +19,7 @@ Tuesdays
 2:00PM - 3:30PM: all
 
 Wednesdays
-12:30: all
+12:30PM - 2:00PM: all
 
 Thursdays
 2:00PM - 3:30PM: all
