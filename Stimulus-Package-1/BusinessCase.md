@@ -1,6 +1,11 @@
-###Business Case
+# Business Case
 
-What we are building
+### Revisions
+* Created Spring 2014
+* 10/11/2014 - 'What we are building' changed slightly to reflect new project goal
+
+
+### What we are building
 We are creating a new website for Sentence Sense that will be used a demo to gain funding to further develop the rest of the website.
 The new website will draw from the old website’s Part One, but focus mainly on the Introduction and Chapter 1/Overview sections.
 The new website will revise content from the old website and reorganize and 
@@ -12,7 +17,7 @@ will also allow for expansion to include later chapters.  The new website will b
 support and pilot it while the remaining parts are being built. Because the website will be used by students ages 
 twelve and up, it is important to design a lean, intuitive and easily navigable website.  
 
-Why we are building it
+### Why we are building it
 This website will satisfy the need for an online resource, not found on any other similar website, that teaches 
 “how a sentence works.” Other websites do well to teach prescriptive grammar (how to fix errors) but there are none
 that focus on how sentences work (descriptive grammar). This website will hope to be the resource which provides 
