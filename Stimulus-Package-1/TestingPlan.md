@@ -46,16 +46,16 @@ November 11, 2014
 * Developing for a wide range of screens and devices
 * Some content of the chapters is still not provied by the client
 
--Assumptions and Dependencies
+#####Assumptions and Dependencies
 
        -Assumptions:
 
-       *Users already have experience using a web browser to browse websites
-       *Users can simply manage to play the game easily
+       * Users already have experience using a web browser to browse websites
+       * Users can simply manage to play the game easily
 
        -Dependencies:
        
-       *Currently, the HTML snippets plugin for WordPress is a big dependency because without it we wouldn't be able to show the modules within the site.
+       * Currently, the HTML snippets plugin for WordPress is a big dependency because without it we wouldn't be able to show the modules within the site.
 
 
 
