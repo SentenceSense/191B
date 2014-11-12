@@ -25,45 +25,42 @@ Test Plan Template
 
 #Revision History (what changed since last time, since this document will continue throughout the project in the following quarters)
 
+-Created for Stimulus Package 1 (November 11, 2014)
  
 #Introduction:
 
--Provide an overview of the test plan.
-
-+Test to see if users are able to go to the chapters that they want
-+Test to see if all the games work
-+Test to see if all the button works in the navigation bar
-+Test to see if the website can be shown on any web browser
-+Test to see if the website can be shown on any device(such as tablets, smart phones and laptop computers)
---How do interactive modules work in devices other than laptops? Touch interface works with modules?
+* Test to see if users are able to go to the chapters that they want
+* Test to see if all the games work
+* Test to see if all the button works in the navigation bar
+* Test to see if the website can be shown on any web browser
+* Test to see if the website can be shown on any device (such as tablets, smart phones and laptop computers)
+  * How do interactive modules work in devices other than laptops? Touch interface works with modules?
 
 -Specify the goals/objectives.
 
-+Users are able to view the website and conect to any page and chapter that they want
-+Users are able to go to any page and any chapter directly and easily
+* Users are able to view the website and conect to any page and chapter that they want
+* Users are able to go to any page and any chapter directly and easily
+* Users are able to play games without any obvious problems
 
 -Specify any constraints.
 
-+Games have not been built
-+Some content of the chapters is still not provied by the client
-+Need time to figure out how Javascript fits into Wordpress
+* Developing for a wide range of screens and devices
+* Some content of the chapters is still not provied by the client
 
 -Assumptions and Dependencies
 
-       -List the assumptions that have been made during the preparation of this plan
+       -Assumptions:
 
-       +Users already have experience of using web browser to browse websites
-       +Users can simply manage to play the game easily
+       *Users already have experience using a web browser to browse websites
+       *Users can simply manage to play the game easily
 
-       -List the dependencies.
-       +Currently, the HTML snippets plugin for WordPress is a big dependency because without it we wouldn't be able to show the modules within the site.
-        We need to figure out a way to insert Javascript modules into the site directly using the html5 canvas element
+       -Dependencies:
+       
+       *Currently, the HTML snippets plugin for WordPress is a big dependency because without it we wouldn't be able to show the modules within the site.
 
 
 
 Test Item Pass/Fail Criteria:
-
--Specify the criteria that will be used to determine whether each test item (software/product) has passed or failed testing.
 
 +All the buttons on any page of the website should work
 +All the games should work
