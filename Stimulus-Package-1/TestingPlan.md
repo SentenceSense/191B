@@ -5,21 +5,15 @@
 “This document describes the scope, approach, resources and schedule of intended test activities. It identifies amongst others test items, the features to be tested, the testing tasks, who will do each task, degree of tester independence, the test environment, the test design techniques and entry and exit criteria to be used, and the rationale for their choice,and any risks requiring contingency planning. It is a record of the test planning process.” From "Test Plan | Software Testing Fundamentals." 2011. 27 Sep. 2012 <http://softwaretestingfundamentals.com/test-plan/>
  
 
-### Project Name
+### Sentence Sense website redesign
 
-+Rebuilding Sentence Sense
-
-### Team Name
-
-+Team Sentence Sense
+### Team Sentence Sense
 
 ### Team Members
 
-+Pen Han Chang, Tsz Hang Ng, Derick Nguyen, Dylan Shigekawa, Darien Vidaure
+Pen Han Chang, Tsz Hang Ng, Derick Nguyen, Dylan Shigekawa, Darien Vidaure
 
-### Date
-
-November 11, 2014
+### November 11, 2014
 
 
 #### Revision History (what changed since last time, since this document will continue throughout the project in the following quarters)
@@ -87,6 +81,7 @@ November 11, 2014
 Test Deliverables:
 
        -Test Reports
+       -Feedback Reports
 
  
 
