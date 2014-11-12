@@ -1,1 +1,89 @@
 ###Testing Plan
+
+TEST PLAN TEMPLATE
+
+The format and content of a software test plan vary depending on the processes, standards, and test management tools being implemented. Nevertheless, the following format, which is based on IEEE standard for software test documentation, provides a summary of what a test plan can/should contain.
+
+Test Plan Identifier:
+
+Provide a unique identifier for the document. (Adhere to the Configuration Management System if you have one.)
+Introduction:
+
+Provide an overview of the test plan.
+Specify the goals/objectives.
+Specify any constraints.
+References:
+
+List the related documents, with links to them if available, including the following:
+Project Plan
+Configuration Management Plan
+ 
+
+Test Items:
+
+List the test items (software/products) and their versions.
+Features to be Tested:
+
+List the features of the software/product to be tested.
+Provide references to the Requirements and/or Design specifications of the features to be tested
+Features Not to Be Tested:
+
+List the features of the software/product which will not be tested.
+Specify the reasons these features won’t be tested.
+Approach:
+
+Mention the overall approach to testing.
+Specify the testing levels [if it's a Master Test Plan], the testing types, and the testing methods [Manual/Automated; White Box/Black Box/Gray Box]
+Item Pass/Fail Criteria:
+
+Specify the criteria that will be used to determine whether each test item (software/product) has passed or failed testing.
+Suspension Criteria and Resumption Requirements:
+
+Specify criteria to be used to suspend the testing activity.
+Specify testing activities which must be redone when testing is resumed.
+Test Deliverables:
+
+List test deliverables, and links to them if available, including the following:
+Test Plan (this document itself)
+Test Cases
+Test Scripts
+Defect/Enhancement Logs
+Test Reports
+ 
+
+Test Environment:
+
+Specify the properties of test environment: hardware, software, network etc.
+List any testing or related tools.
+Estimate:
+
+Provide a summary of test estimates (cost or effort) and/or provide a link to the detailed estimation.
+Schedule:
+
+Provide a summary of the schedule, specifying key test milestones, and/or provide a link to the detailed schedule.
+Staffing and Training Needs:
+
+Specify staffing needs by role and required skills.
+Identify training that is necessary to provide those skills, if not already acquired.
+Responsibilities:
+
+List the responsibilities of each team/role/individual.
+Risks:
+
+List the risks that have been identified.
+Specify the mitigation plan and the contingency plan for each risk.
+Assumptions and Dependencies:
+
+List the assumptions that have been made during the preparation of this plan.
+List the dependencies.
+Approvals:
+
+Specify the names and roles of all persons who must approve the plan.
+Provide space for signatures and dates. (If the document is to be printed.)
+TEST PLAN GUIDELINES
+
+Make the plan concise. Avoid redundancy and superfluousness. If you think you do not need a section that has been mentioned in the template above, go ahead and delete that section in your test plan.
+Be specific. For example, when you specify an operating system as a property of a test environment, mention the OS Edition/Version as well, not just the OS Name.
+Make use of lists and tables wherever possible. Avoid lengthy paragraphs.
+Have the test plan reviewed a number of times prior to baselining it or sending it for approval. The quality of your test plan speaks volumes about the quality of the testing you or your team is going to perform.
+Update the plan as and when necessary. An out-dated and unused document stinks and is worse than not having the document in the first place.
