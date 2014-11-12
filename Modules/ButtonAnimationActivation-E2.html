@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Button Activated Animation</title>
+<script src="modernizr-1.6.min.js"></script>
+<script type="text/javascript">
+/*
+window.addEventListener('load', eventWindowLoaded, false);	
+function eventWindowLoaded() {
+
+	canvasApp();
+	
+}
+*/
+function canvasSupport () {
+  	return Modernizr.canvas;
+}
+
+/* To make incremental animation, would need more canvasApp() functions and multiple buttons? 
+or a way to have the same button animate multiple things/call different functions and then reset
+Try: <button onclick="canvasApp1(),canvasApp2(),canvasApp3()">Animate</button>
+*/
+function canvasApp(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	//anim1
+	var plant1=new Image();
+	plant1.src="anim1three.png";
+	plant1.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim2
+	var plant2=new Image();
+	plant2.src="anim2.png";
+	plant2.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim3
+	var plant3=new Image();
+	plant3.src="anim3.png";
+	plant3.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim4
+	var plant4=new Image();
+	plant4.src="anim4.png";
+	plant4.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim5
+	var plant5=new Image();
+	plant5.src="anim5three.png";
+	plant5.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim6
+	var plant6=new Image();
+	plant6.src="anim6three.png";
+	plant6.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+	
+
+	function drawScreen() {
+		
+		 context.drawImage(plant1, 0, 0);
+		 context.drawImage(plant2, 5, 0);
+		 context.drawImage(plant3, 10, 0);
+		 context.drawImage(plant4, 13, 0);
+		 context.drawImage(plant5, 18, 0);
+		 context.drawImage(plant6, 19, 0);
+
+	}
+
+}
+
+
+</script> 
+</head>
+<body>
+<button onclick="canvasApp()">Animate</button>
+<div style="position: absolute; top: 50px; left: 50px;"">
+<canvas id="canvas" width="1000" height="500">
+ Your browser does not support the HTML 5 Canvas. 
+</canvas>
+</div>
+</body>
+</html>
