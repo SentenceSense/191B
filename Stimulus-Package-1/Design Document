@@ -4,14 +4,6 @@
 
 
 
-
-
-
-
-
-
-
-
 Pen Han Chang, Tsz Hang Ng, Derick Nguyen, Dylan Shigekawa, Darien Vidaure
 
 11/11/2014
@@ -55,7 +47,7 @@ Pen Han Chang, Tsz Hang Ng, Derick Nguyen, Dylan Shigekawa, Darien Vidaure
 
 ### Introduction
 
-We are creating a new website for Sentence Sense.  The new website will draw from the old website’s Part One.  The new website will revise content from the old website and reorganize and compress content from the original site.  
+We are creating a new Sentence Sense website.  The new website will draw from the old website’s Part One and focus on the Introduction and Overview sections.  The new website will revise content from the old website and reorganize and compress content from the original site.  
 
 Sentence Sense is an interactive online learning experience.  The website will have interactive learning exercises for the students.  The results of these exercises will be able to be tracked and analyzed by instructors or tutors.  At the end of each chapter, there will be a Review and Practice section that will test the user and link them to the sections corresponding to the incorrect answers.  The results from this test will also be able to be tracked by an instructor or tutor.
 
@@ -70,7 +62,8 @@ There will be various types of users who will be able to utilize this website in
 Building a CMS for our sponsor will allow her to easily change the website’s content without requiring much technical knowledge. This will remove the need for a dedicated website technician once we are finished with this project.
 
 #### Scope
-After we finish building the new webpage, it should provide a new, simple, more interactive experience between teachers and students, and user-friendly function for users to learn English, view grades, and communicate. The client requires the whole web page to look simple to prevent the user from feeling confused when accessing the website. Students can play games on the website, teachers can leave comments on the exercises for students, and students can communicate with the teachers through the website. This gives students a better understanding of the mistakes that they have made and allows them to pose questions to teachers immediately.  
+After we finish building the new webpage, it should provide a new, simple, more interactive experience between teachers and students, and user-friendly function for users to learn English, view grades, and communicate. The client requires the whole web page to look simple to prevent the user from feeling confused when accessing the website. Students can play games on the website, teachers can leave comments on the exercises for students, and students can communicate with the teachers through the website. This gives students a better understanding of the mistakes that they have made and allows them to pose questions to teachers immediately.
+The website will be used as a showcase demo to attract investors who will hopefully further fund development for later chapters of the website.
 
 
 #### Overview
@@ -138,7 +131,6 @@ The website will:
 + Allow interaction between users
   + This will probably require users to have their own accounts
   + The results of exercises could be shared electronically with teachers or tutors for help in lesson planning
-  + Mastery Test, and results can be reported to teachers for assessment and recordkeeping
   + Activities will be adapted for electronic communication among fellow site-users
   + Culminating activities in each chapter will prompt collaboration with other site users
 + Facilitate the trading of exercise either through a class discussion board or some posting location for users who are not members of a class
