@@ -1,9 +1,8 @@
 # Test Plan
 
-## Part I:  Software Testing Plan 
-
 “This document describes the scope, approach, resources and schedule of intended test activities. It identifies amongst others test items, the features to be tested, the testing tasks, who will do each task, degree of tester independence, the test environment, the test design techniques and entry and exit criteria to be used, and the rationale for their choice,and any risks requiring contingency planning. It is a record of the test planning process.” From "Test Plan | Software Testing Fundamentals." 2011. 27 Sep. 2012 <http://softwaretestingfundamentals.com/test-plan/>
- 
+
+## Part I:  Software Testing Plan 
 
 ### Sentence Sense website redesign
 
@@ -102,6 +101,7 @@ For the Heuristic Evaluation we will use the Nielson's 10 usability principles t
 
 Using these 10 principles we would evaluate the entire website's interface (using its current state) as well as the individual modules' interfaces (using mockups since we don't have them all fully developed yet). We could perform this evaluation by each individual team member going through the 10 heuristics and then comparing and discussing our findings as a team. 
  
+###User Testing
 
 For actual user testing, you have to plan for the kind of user you will recruit and how many, when the sessions will be, what tasks you will ask them to do, what interface they will use, how you will record their actions and evaluations (e.g. a quick survey), and when you will take your findings and make changes to the interface.  Those planned design changes appear on a sprint.
 
