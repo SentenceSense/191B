@@ -17,16 +17,16 @@
 
 +Pen Han Chang, Tsz Hang Ng, Derick Nguyen, Dylan Shigekawa, Darien Vidaure
 
-###Date
+### Date
 
 November 11, 2014
 
 
-####Revision History (what changed since last time, since this document will continue throughout the project in the following quarters)
+#### Revision History (what changed since last time, since this document will continue throughout the project in the following quarters)
 
 -Created for Stimulus Package 1 (November 11, 2014)
  
-####Introduction:
+#### Introduction:
 
 * Test to see if users are able to go to the chapters that they want
 * Test to see if all the games work
@@ -35,18 +35,18 @@ November 11, 2014
 * Test to see if the website can be shown on any device (such as tablets, smart phones and laptop computers)
   * How do interactive modules work in devices other than laptops? Touch interface works with modules?
 
-#####Specify the goals/objectives.
+##### Specify the goals/objectives.
 
 * Users are able to view the website and conect to any page and chapter that they want
 * Users are able to go to any page and any chapter directly and easily
 * Users are able to play games without any obvious problems
 
-#####Specify any constraints.
+##### Specify any constraints.
 
 * Developing for a wide range of screens and devices
 * Some content of the chapters is still not provied by the client
 
-#####Assumptions and Dependencies
+##### Assumptions and Dependencies
 
        -Assumptions:
 
@@ -59,7 +59,7 @@ November 11, 2014
 
 
 
-####Test Item Pass/Fail Criteria:
+#### Test Item Pass/Fail Criteria:
 
 * Test to see if all the games work:
   * Test will pass if no errors come up during the running of the game. Alternatively, test will fail if errors occur and game renders unplayable.
