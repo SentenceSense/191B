@@ -55,7 +55,7 @@ November 11, 2014
 
        -Dependencies:
        
-       * Currently, the HTML snippets plugin for WordPress is a big dependency because without it we wouldn't be able to show the          modules within the site.
+       * Currently, the HTML snippets plugin for WordPress is a big dependency because without it we wouldn't be able to show the modules within the site.
 
 
 
