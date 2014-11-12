@@ -45,10 +45,11 @@ Test Plan Template
 
 +Games have not been built
 +Some content of the chapters is still not provied by the client
++Need time to figure out how Javascript fit to the Wordpress
 
 -Assumptions and Dependencies
 
-       -List the assumptions that have been made during the preparation of this plan.
+       -List the assumptions that have been made during the preparation of this plan
 
        +Users already have experience of using web browser to browse websites
 
@@ -62,6 +63,7 @@ Test Item Pass/Fail Criteria:
 
 +All the buttons on any page of the website should work
 +All the games should work
++User won't have any difficulties on exploring
 
 -This should also include the test items. Test cases for, at least, all relevant testing levels should be covered -
 
