@@ -1,33 +1,32 @@
-###Testing Plan
+#Test Plan
 
-Part I:  Software Testing Plan
+##Part I:  Software Testing Plan 
 
 “This document describes the scope, approach, resources and schedule of intended test activities. It identifies amongst others test items, the features to be tested, the testing tasks, who will do each task, degree of tester independence, the test environment, the test design techniques and entry and exit criteria to be used, and the rationale for their choice,and any risks requiring contingency planning. It is a record of the test planning process.” From "Test Plan | Software Testing Fundamentals." 2011. 27 Sep. 2012 <http://softwaretestingfundamentals.com/test-plan/>
-
-Test Plan Template
  
 
-#Project Name
+###Project Name
 
 +Rebuilding Sentence Sense
 
-#Team Name
+###Team Name
 
 +Team Sentence Sense
 
-#Team Members
+###Team Members
 
 +Pen Han Chang, Tsz Hang Ng, Derick Nguyen, Dylan Shigekawa, Darien Vidaure
 
-#Date
+###Date
 
-#Table of Contents
+November 11, 2014
 
-#Revision History (what changed since last time, since this document will continue throughout the project in the following quarters)
+
+####Revision History (what changed since last time, since this document will continue throughout the project in the following quarters)
 
 -Created for Stimulus Package 1 (November 11, 2014)
  
-#Introduction:
+####Introduction:
 
 * Test to see if users are able to go to the chapters that they want
 * Test to see if all the games work
@@ -36,13 +35,13 @@ Test Plan Template
 * Test to see if the website can be shown on any device (such as tablets, smart phones and laptop computers)
   * How do interactive modules work in devices other than laptops? Touch interface works with modules?
 
--Specify the goals/objectives.
+#####Specify the goals/objectives.
 
 * Users are able to view the website and conect to any page and chapter that they want
 * Users are able to go to any page and any chapter directly and easily
 * Users are able to play games without any obvious problems
 
--Specify any constraints.
+#####Specify any constraints.
 
 * Developing for a wide range of screens and devices
 * Some content of the chapters is still not provied by the client
@@ -60,35 +59,32 @@ Test Plan Template
 
 
 
-Test Item Pass/Fail Criteria:
+####Test Item Pass/Fail Criteria:
 
-+All the buttons on any page of the website should work
-+All the games should work
-+User won't have any difficulties on exploring
+* Test to see if all the games work:
+  * Test will pass if no errors come up during the running of the game. Alternatively, test will fail if errors occur and game renders unplayable.
+* Test to see if all the button works
+  * Test will pass if all buttons do intended action. Test will fail if button reacts differently than expected
+    * Game button - activate games
+    * Next button - directs to next section/chapter
+    * Back button - driects to previous section/chapter
+    * Exit button - closes current application
+    * Submit button - submits the work
 
--This should also include the test items. Test cases for, at least, all relevant testing levels should be covered -
-
-       -Unit/Modules Test Suite
-
-       -Integration Test Suite
-
-       -Scenario or Use case based Test Suite
-
-       -System Test Suite
-
+* Test to see if the website can be shown on any web browser
+  * Test will pass if website will show up on major browsers. Test will fail if the enitre page does not appear in the browser.
+    * Chrome
+    * Firefox
+    * Internet Explorer
+    * Safari
+* Test to see if the website can be shown on any device (such as tablets, smart phones and laptop computers)
+  *Test will pass if website can be shown on screens larger than 7 inches. Test will fail if website will not appear on screen.
+    * Android Tablet 7 inches and larger
+    * iPad 7 inches and larger
+    * Laptop/Computer screen (see browser test)
 
 
 Test Deliverables:
-
--List test deliverables, and links to them if available, including the following:
-
-       -Test Plan (this document itself)
-
-       -Test Cases
-
-       -Test Scripts
-
-       -Defect/Enhancement Logs
 
        -Test Reports
 
