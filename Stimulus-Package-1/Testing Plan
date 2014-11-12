@@ -6,11 +6,14 @@ The format and content of a software test plan vary depending on the processes, 
 
 Test Plan Identifier:
 
-Provide a unique identifier for the document. (Adhere to the Configuration Management System if you have one.)
-Introduction:
+overview of the test plan:
+- Test to see if users are able to go to the chapters that they want
+- Test to see if all the games work
+- Test to see if all the button works in the nevgation bar
 
-Provide an overview of the test plan.
 Specify the goals/objectives.
+- User are able to view the website and contect to any page and chapter that they want
+
 Specify any constraints.
 References:
 
