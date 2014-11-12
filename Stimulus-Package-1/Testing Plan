@@ -1,18 +1,16 @@
 ###Testing Plan
 
-TEST PLAN TEMPLATE
-
-The format and content of a software test plan vary depending on the processes, standards, and test management tools being implemented. Nevertheless, the following format, which is based on IEEE standard for software test documentation, provides a summary of what a test plan can/should contain.
-
 Test Plan Identifier:
 
 overview of the test plan:
 - Test to see if users are able to go to the chapters that they want
 - Test to see if all the games work
 - Test to see if all the button works in the nevgation bar
+- Test to see if users are able to explore the site easily
 
 Specify the goals/objectives.
 - User are able to view the website and contect to any page and chapter that they want
+- User can actually learn the material faster
 
 Specify any constraints.
 References:
