@@ -53,6 +53,7 @@ Test Plan Template
        -List the assumptions that have been made during the preparation of this plan
 
        +Users already have experience of using web browser to browse websites
+       +Users can simply manage to play the game easily
 
        -List the dependencies.
        +Currently, the HTML snippets plugin for WordPress is a big dependency because without it we wouldn't be able to show the modules within the site.
