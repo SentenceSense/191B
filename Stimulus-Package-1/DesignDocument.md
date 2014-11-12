@@ -2,7 +2,9 @@
 ##Sentence Sense Website Redesign
 ###Software Design Document
 
-
+####Revisions
+* Created Spring 2014
+* 11/11/2014 - Modified scope slightly
 
 Pen Han Chang, Tsz Hang Ng, Derick Nguyen, Dylan Shigekawa, Darien Vidaure
 
