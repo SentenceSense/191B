@@ -159,22 +159,22 @@ The testers will be asked to time their session for each part so the team will h
 
 If an error or unexpected occurrence is encountered, the tester will be asked to record the action that causes the error, and the error encountered.
 
-**Benchmark Tasks:**
+#####Benchmark Tasks:
 
  Navigation
-1.	Navigate to the Chapter 1 – overview page
-2.	Navigate to Chapter 1 – Section  2
-3.	Navigate to Chapter 1 – Section 3
-4.	Navigate to Chapter 5 – overview page
-5.	Navigate to the website homepage
+* 1.	Navigate to the Chapter 1 – overview page
+* 2.	Navigate to Chapter 1 – Section  2
+* 3.	Navigate to Chapter 1 – Section 3
+* 4.	Navigate to Chapter 5 – overview page
+* 5.	Navigate to the website homepage
 
 Search
-1.	Using the search bar, navigate to the page that talks about the structure of a sentence
-2.	Using the search bar, navigate to the page that talks about the parts of sentence
+* 1.	Using the search bar, navigate to the page that talks about the structure of a sentence
+* 2.	Using the search bar, navigate to the page that talks about the parts of sentence
 
 Games
-1.	Click the button on the homepage that says ‘Try This’
-2.	Play the game that appears
+* 1.	Click the button on the homepage that says ‘Try This’
+* 2.	Play the game that appears
 
 #### Measures
 * Time to do tasks – the time for each section will be recorded
