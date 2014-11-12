@@ -86,18 +86,18 @@ Test Deliverables:
 
 ## Part II:  User Testing Plan
 
-###Heuristic Evaluation
+###Heuristic Evaluation/Checklist
 For the Heuristic Evaluation we will use the Nielson's 10 usability principles to evaluate our system:
-1.Visibility of system status
-2.Match between systems adn the real world
-3.User control and freedom
-4.Consistency and standards
-5.Error prevention
-6.Recognition rather than recall
-7.Flexiblity and efficiency of use
-8.Aesthetic and minimalist design
-9.Help users recognize, diagnose, and recover from errors
-10.Help and documentation
+1. Visibility of system status
+2. Match between systems adn the real world
+3. User control and freedom
+4. Consistency and standards
+5. Error prevention
+6. Recognition rather than recall
+7. Flexiblity and efficiency of use
+8. Aesthetic and minimalist design
+9. Help users recognize, diagnose, and recover from errors
+10. Help and documentation
 
 Using these 10 principles we would evaluate the entire website's interface (using its current state) as well as the individual modules' interfaces (using mockups since we don't have them all fully developed yet). We could perform this evaluation by each individual team member going through the 10 heuristics and then comparing and discussing our findings as a team. 
  
