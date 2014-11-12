@@ -37,7 +37,7 @@ November 11, 2014
 
 ##### Specify the goals/objectives.
 
-* Users are able to view the website and conect to any page and chapter that they want
+* Users are able to view the website and connect to any page and chapter that they want
 * Users are able to go to any page and any chapter directly and easily
 * Users are able to play games without any obvious problems
 
@@ -55,7 +55,7 @@ November 11, 2014
 
        -Dependencies:
        
-       * Currently, the HTML snippets plugin for WordPress is a big dependency because without it we wouldn't be able to show the modules within the site.
+       * Currently, the HTML snippets plugin for WordPress is a big dependency because without it we wouldn't be able to show the          modules within the site.
 
 
 
