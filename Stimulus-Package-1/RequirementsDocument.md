@@ -1,5 +1,9 @@
 #What this software must do
 
+### Revisions
+* Created Spring 2014
+* 10/6/2014 - Current focus on modules and Introduction and Chapter 1
+
 Team Sentence Sense
 
 Pen Han Chang, Tsz Hang Ng, Derick Nguyen, Dylan Shigekawa, Darien Vidaure
@@ -46,7 +50,7 @@ The website will:
 + Site design can expand to incorporate later chapters
 + New site can be launched on server that can support and pilot it while the remaining parts are being built
 
-+ Have 7 parts (Introduction & Overview are main focus)
++ Have 8 parts (Introduction & Overview are main focus)
   + Introduction & Overview
 +Establish a hit counter and a tally system to evaluate use of each page, which include navigation links to background pages
   + Chapter 2
@@ -60,7 +64,8 @@ E (game followed by display)
   + Chapter 5
   + Chapter 6
   + Chapter 7
-+All subsequent 3-7 chapters need the following: 
+  + Chapter 8
++All subsequent 3-8 chapters need the following: 
 
  + Opening writing screen that can save text for retrieval at the end of the chapter(described in notes for D)
 
