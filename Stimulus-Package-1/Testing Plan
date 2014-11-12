@@ -1,90 +1,108 @@
 ###Testing Plan
 
-Test Plan Identifier:
+Part I:  Software Testing Plan
 
-overview of the test plan:
-- Test to see if users are able to go to the chapters that they want
-- Test to see if all the games work
-- Test to see if all the button works in the nevgation bar
-- Test to see if users are able to explore the site easily
+“This document describes the scope, approach, resources and schedule of intended test activities. It identifies amongst others test items, the features to be tested, the testing tasks, who will do each task, degree of tester independence, the test environment, the test design techniques and entry and exit criteria to be used, and the rationale for their choice,and any risks requiring contingency planning. It is a record of the test planning process.” From "Test Plan | Software Testing Fundamentals." 2011. 27 Sep. 2012 <http://softwaretestingfundamentals.com/test-plan/>
 
-Specify the goals/objectives.
-- User are able to view the website and contect to any page and chapter that they want
-- User can actually learn the material faster
-
-Specify any constraints.
-References:
-
-List the related documents, with links to them if available, including the following:
-Project Plan
-Configuration Management Plan
+Test Plan Template
  
 
-Test Items:
+#Project Name
 
-List the test items (software/products) and their versions.
-Features to be Tested:
++Rebuilding Sentence Sense
 
-List the features of the software/product to be tested.
-Provide references to the Requirements and/or Design specifications of the features to be tested
-Features Not to Be Tested:
+#Team Name
 
-List the features of the software/product which will not be tested.
-Specify the reasons these features won’t be tested.
-Approach:
++Team Sentence Sense
 
-Mention the overall approach to testing.
-Specify the testing levels [if it's a Master Test Plan], the testing types, and the testing methods [Manual/Automated; White Box/Black Box/Gray Box]
-Item Pass/Fail Criteria:
+#Team Members
 
-Specify the criteria that will be used to determine whether each test item (software/product) has passed or failed testing.
-Suspension Criteria and Resumption Requirements:
++Pen Han Chang, Tsz Hang Ng, Derick Nguyen, Dylan Shigekawa, Darien Vidaure
 
-Specify criteria to be used to suspend the testing activity.
-Specify testing activities which must be redone when testing is resumed.
+#Date
+
+#Table of Contents
+
+#Revision History (what changed since last time, since this document will continue throughout the project in the following quarters)
+
+ 
+#Introduction:
+
+-Provide an overview of the test plan.
+
++Test to see if users are able to go to the chapters that they want
++Test to see if all the games work
++Test to see if all the button works in the nevgation bar
++Test to see if the website can be shown on any web browser
++Test to see if the website can be shown on any device(such as tablets, smart phones and laptop computers)
+
+-Specify the goals/objectives.
+
++Users are able to view the website and conect to any page and chapter that they want
++Users are able to go to any page and any chapter directly and easily
+
+-Specify any constraints.
+
++Games have not been built
++Some content of the chapters is still not provied by the client
+
+-Assumptions and Dependencies
+
+       -List the assumptions that have been made during the preparation of this plan.
+
+       +Users already have experience of using web browser to browse websites
+
+       -List the dependencies.
+
+
+
+Test Item Pass/Fail Criteria:
+
+-Specify the criteria that will be used to determine whether each test item (software/product) has passed or failed testing.
+
++All the buttons on any page of the website should work
++All the games should work
+
+-This should also include the test items. Test cases for, at least, all relevant testing levels should be covered -
+
+       -Unit/Modules Test Suite
+
+       -Integration Test Suite
+
+       -Scenario or Use case based Test Suite
+
+       -System Test Suite
+
+
+
 Test Deliverables:
 
-List test deliverables, and links to them if available, including the following:
-Test Plan (this document itself)
-Test Cases
-Test Scripts
-Defect/Enhancement Logs
-Test Reports
+-List test deliverables, and links to them if available, including the following:
+
+       -Test Plan (this document itself)
+
+       -Test Cases
+
+       -Test Scripts
+
+       -Defect/Enhancement Logs
+
+       -Test Reports
+
  
 
-Test Environment:
+Part II:  User Testing Plan
 
-Specify the properties of test environment: hardware, software, network etc.
-List any testing or related tools.
-Estimate:
+ 
 
-Provide a summary of test estimates (cost or effort) and/or provide a link to the detailed estimation.
-Schedule:
+There are two parts to user testing:  Examining the interface from the point of view of the user, namely Heuristic Evaluation or using the Checklist, and doing actual user testing, with real users either examining the interface or actually trying to get a test-task done.
 
-Provide a summary of the schedule, specifying key test milestones, and/or provide a link to the detailed schedule.
-Staffing and Training Needs:
+ 
 
-Specify staffing needs by role and required skills.
-Identify training that is necessary to provide those skills, if not already acquired.
-Responsibilities:
+Your plan for HE/Checklist should be preparing the interface materials (mockups, wireframes, GTN) and then having a session with your team going through the tasks one by one examining the points in the Heuristics or the Checklist.  So you need to plan for the materials, having the checklists available, then recording your “findings.”  You then meet to decide what changes to make in the interface and put those on the sprint.
 
-List the responsibilities of each team/role/individual.
-Risks:
+ 
 
-List the risks that have been identified.
-Specify the mitigation plan and the contingency plan for each risk.
-Assumptions and Dependencies:
+For actual user testing, you have to plan for the kind of user you will recruit and how many, when the sessions will be, what tasks you will ask them to do, what interface they will use, how you will record their actions and evaluations (e.g. a quick survey), and when you will take your findings and make changes to the interface.  Those planned design changes appear on a sprint.
 
-List the assumptions that have been made during the preparation of this plan.
-List the dependencies.
-Approvals:
-
-Specify the names and roles of all persons who must approve the plan.
-Provide space for signatures and dates. (If the document is to be printed.)
-TEST PLAN GUIDELINES
-
-Make the plan concise. Avoid redundancy and superfluousness. If you think you do not need a section that has been mentioned in the template above, go ahead and delete that section in your test plan.
-Be specific. For example, when you specify an operating system as a property of a test environment, mention the OS Edition/Version as well, not just the OS Name.
-Make use of lists and tables wherever possible. Avoid lengthy paragraphs.
-Have the test plan reviewed a number of times prior to baselining it or sending it for approval. The quality of your test plan speaks volumes about the quality of the testing you or your team is going to perform.
-Update the plan as and when necessary. An out-dated and unused document stinks and is worse than not having the document in the first place.
+A good resource for a User Testing Plan: http://it.toolbox.com/blogs/<wbr />enterprise-solutions/sample-<wbr />usability-test-plan-17826. (Note: Some important elements of a User Test Plan are missing from this template. Use this resource purely as a start point for your User Test Plan.) 
