@@ -1,7 +1,7 @@
 # Initial tasks
 ###* Prepare for Novemberfest
 ###* Work on modules
-###* Fina a new video conferencing tool to meet with sponsor
+###* Find a new video conferencing tool to meet with sponsor
 
 # Completed
 ###*For Novemberfest we prepared by updating our poster and elevator pitch again 
