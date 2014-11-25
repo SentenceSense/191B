@@ -13,5 +13,5 @@
 ###* Module F is still being worked on
 
 # Future Plans
-###* Test these modules with users & show them to our client and make changes if necessary
+###* Test these modules with users, show them to our client and make changes if necessary
 
