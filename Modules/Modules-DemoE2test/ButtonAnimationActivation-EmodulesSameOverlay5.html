@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Button Activated Animation</title>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<script src="modernizr-1.6.min.js"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+
+
+function canvasSupport () {
+  	return Modernizr.canvas;
+}
+
+function loadIncrements1() {
+	canvasApp1();
+}
+
+function loadIncrements2() {
+	canvasApp1();
+	setTimeout("canvasApp2()", 1000);
+}
+
+function loadIncrements3() {
+	canvasApp1();
+	setTimeout("canvasApp2()", 1000);
+	setTimeout("canvasApp3()", 2000);
+}
+
+function loadIncrements4() {
+	canvasApp1();
+	setTimeout("canvasApp2()", 1000);
+	setTimeout("canvasApp3()", 2000);
+	setTimeout("canvasApp4()", 3000);
+}
+
+function loadIncrements5() {
+	canvasApp1();
+	setTimeout("canvasApp2()", 1000);
+	setTimeout("canvasApp3()", 2000);
+	setTimeout("canvasApp4()", 3000);
+	setTimeout("canvasApp5()", 4000);
+}
+
+function loadIncrements6() {
+	canvasApp1();
+	setTimeout("canvasApp2()", 1000);
+	setTimeout("canvasApp3()", 2000);
+	setTimeout("canvasApp4()", 3000);
+	setTimeout("canvasApp5()", 4000);
+	setTimeout("canvasApp6()", 5000);
+
+}
+
+function clearScreenAll() {
+		var theCanvas = document.getElementById('canvas');
+	 	var context = theCanvas.getContext('2d');
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+}
+
+
+function canvasApp1(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	//anim1
+	var plant1= new Image();
+	plant1.src="http://uci.sentencesyntax.com/wp-content/uploads/2014/11/anim1three2.png";
+	plant1.addEventListener('load', eventPlantLoaded , false);
+	
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+
+	function clearScreen() {
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+	}	
+
+	function drawScreen() {
+		
+		clearScreen();
+		context.drawImage(plant1, 0, 0);
+
+	}
+}
+
+function canvasApp2(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+
+	//anim2
+	var plant2= new Image();
+	plant2.src="http://uci.sentencesyntax.com/wp-content/uploads/2014/11/anim2two.png";
+	plant2.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+
+	function clearScreen() {
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+	}	
+
+	function drawScreen() {
+		 clearScreen();
+		 context.drawImage(plant2, -90, 0);
+	}
+}
+
+
+function canvasApp3(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+
+	//anim3
+	var plant3= new Image();
+	plant3.src="http://uci.sentencesyntax.com/wp-content/uploads/2014/11/anim3.png";
+	plant3.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+
+	function clearScreen() {
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+	}	
+
+	function drawScreen() {
+		 clearScreen();
+		 context.drawImage(plant3, -180, 0);
+
+	}
+}
+
+
+function canvasApp4(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	//anim4
+	var plant4= new Image();
+	plant4.src="http://uci.sentencesyntax.com/wp-content/uploads/2014/11/anim4.png";
+	plant4.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+
+	function clearScreen() {
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+	}	
+
+	function drawScreen() {
+		 clearScreen();
+		 context.drawImage(plant4, -270, 0);
+	}
+}
+
+function canvasApp5(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	
+	//anim5
+	var plant5= new Image();
+	plant5.src="http://uci.sentencesyntax.com/wp-content/uploads/2014/11/anim5three.png";
+	plant5.addEventListener('load', eventPlantLoaded , false);
+	
+
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+	
+	function clearScreen() {
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+	}	
+
+	function drawScreen() {
+		 clearScreen();
+		 context.drawImage(plant5, -400, 0);
+
+	}
+}
+
+function canvasApp6(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	//anim6
+	var plant6= new Image();
+	plant6.src="http://uci.sentencesyntax.com/wp-content/uploads/2014/11/anim6three.png";
+	plant6.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+	
+	function clearScreen() {
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+	}
+
+
+	function drawScreen() {
+		 clearScreen();
+		 context.drawImage(plant6, -520, 0);
+
+	}
+
+
+}
+
+
+
+
+</script> 
+</head>
+<body>
+
+<!-- 
+<p> Sentences Grow</p>
+
+<p> These sentences grow.
+Sentences on this page grow.
+Starting from seeds, sentences grow.
+Sentences that sprout modifiers grow.</p>
+
+<p> Sentences grow easily.
+Sentences grow before your eyes.
+Sentences grow to develop sturdy shapes.
+Sentences grow until they seem to gather 
+a momentum of their own.</p> 
+
+<p> Some sentences grow branches.
+Sentences grow new branches.
+Sentences grow branches of words.
+Sentences grow branches unfolding fresh ideas.
+Sentences grow branches that may blossom with unexpected possibilities.</p> 
+
+<p> Sentences Grow</p> 
+
+<p> Sentences Grow</p>  -->
+
+<button style="position: absolute; top: 100px; left:250px;" onclick="loadIncrements1();">1</button>
+<button style="position: absolute; top: 150px; left:250px;" onclick="loadIncrements2();">2</button>
+<button style="position: absolute; top: 200px; left:250px;" onclick="loadIncrements3();">3</button>
+<button style="position: absolute; top: 250px; left:250px;" onclick="loadIncrements4();">4</button>
+<button style="position: absolute; top: 300px; left:250px;" onclick="loadIncrements5();">5</button>
+<button style="position: absolute; top: 350px; left:250px;" onclick="loadIncrements6();">6</button>
+<button style="position: absolute; top: 400px; left:240px;" onclick="clearScreenAll();">Clear</button>
+
+
+<div style="position: absolute; top: 50px; left: 300px;">
+<canvas id="canvas" width="1000" height="500" >
+ Your browser does not support the HTML 5 Canvas. 
+</canvas>
+</div>
+</body>
+</html>
+
+
+<!-- 
+GONNA HAVE TO PHOTOSOHP COLORS OVER EACH PICTURE AND THEN ADD DELAYS AS TI GOES THROUGH THEM ALL IF YOU PRESS LIKE BUTTON 5 FIRST IT HAS TO SHOW THE WHOLE TRANSFORMATION NOT JUST HE FINAL FORM
+1.anim1three2
+2.anim2two
+3.anim3
+4.anim4
+5.anim5three
+6.anim6three
+ -->

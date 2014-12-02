@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Button Activated Animation</title>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<script src="modernizr-1.6.min.js"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+<script type="text/javascript"> // <![CDATA[
+// ******
+// ******
+// ******
+// ******
+// EVENT WINDOW LISTNER/LOADER IS WHY IT HASNT BEEN WORKIGN IN WORDPRES?!?!! = try it out!!!! with hmtl snippets & how Nick/Kevin did it
+// ~~~doesnt affect the current wroking versiona t all right??
+// ******
+// ******
+// ******
+// ******
+// window.addEventListener('load', eventWindowLoaded, false);	
+// function eventWindowLoaded() {
+
+// 	canvasApp();
+	
+// }
+
+function canvasSupport () {
+  	return Modernizr.canvas;
+}
+
+function loadIncrements1() {
+	canvasApp1();
+}
+
+function loadIncrements2() {
+	canvasApp1();
+	setTimeout("canvasApp2()", 1000);
+}
+
+function loadIncrements3() {
+	canvasApp1();
+	setTimeout("canvasApp2()", 1000);
+	setTimeout("canvasApp3()", 2000);
+}
+
+function loadIncrements4() {
+	canvasApp1();
+	setTimeout("canvasApp2()", 1000);
+	setTimeout("canvasApp3()", 2000);
+	setTimeout("canvasApp4()", 3000);
+}
+
+function loadIncrements5() {
+	canvasApp1();
+	setTimeout("canvasApp2()", 1000);
+	setTimeout("canvasApp3()", 2000);
+	setTimeout("canvasApp4()", 3000);
+	setTimeout("canvasApp5()", 4000);
+}
+
+// function loadIncrements6() {
+// 	canvasApp1();
+// 	setTimeout("canvasApp2()", 1000);
+// 	setTimeout("canvasApp3()", 2000);
+// 	setTimeout("canvasApp4()", 3000);
+// 	setTimeout("canvasApp5()", 4000);
+// 	setTimeout("canvasApp6()", 5000);
+
+// }
+
+function clearScreenAll() {
+		var theCanvas = document.getElementById('canvas');
+	 	var context = theCanvas.getContext('2d');
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+}
+
+
+function canvasApp1(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	//anim1
+	var plant1= new Image();
+	plant1.src="http://uci.sentencesyntax.com/wp-content/uploads/2014/11/anim1three3two.png";
+	plant1.addEventListener('load', eventPlantLoaded , false);
+	
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+
+	function clearScreen() {
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+	}	
+
+	function drawScreen() {
+		
+		clearScreen();
+		context.drawImage(plant1, 0, 0);
+
+	}
+}
+
+function canvasApp2(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+
+	//anim2
+	var plant2= new Image();
+	plant2.src="http://uci.sentencesyntax.com/wp-content/uploads/2014/11/anim3two.png";
+	plant2.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+
+	function clearScreen() {
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+	}	
+
+	function drawScreen() {
+		 clearScreen();
+		 context.drawImage(plant2, -180, 0);
+	}
+}
+
+
+function canvasApp3(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+
+	//anim3
+	var plant3= new Image();
+	plant3.src="http://uci.sentencesyntax.com/wp-content/uploads/2014/11/anim4two.png";
+	plant3.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+
+	function clearScreen() {
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+	}	
+
+	function drawScreen() {
+		 clearScreen();
+		 context.drawImage(plant3, -280, 0);
+
+	}
+}
+
+
+function canvasApp4(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	//anim4
+	var plant4= new Image();
+	plant4.src="http://uci.sentencesyntax.com/wp-content/uploads/2014/11/anim5three2.png";
+	plant4.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+
+	function clearScreen() {
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+	}	
+
+	function drawScreen() {
+		 clearScreen();
+		 context.drawImage(plant4, -400, 0);
+	}
+}
+
+function canvasApp5(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	
+	//anim5
+	var plant5= new Image();
+	plant5.src="http://uci.sentencesyntax.com/wp-content/uploads/2014/11/anim6three5.png";
+	plant5.addEventListener('load', eventPlantLoaded , false);
+	
+
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+	
+	function clearScreen() {
+		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+	}	
+
+	function drawScreen() {
+		 clearScreen();
+		 context.drawImage(plant5, -522, 0);
+
+	}
+}
+
+// function canvasApp6(){
+	
+
+// 	if (!canvasSupport()) {
+// 			 return;
+//   	}else{
+// 	    var theCanvas = document.getElementById('canvas');
+// 	    var context = theCanvas.getContext('2d');
+// 	}
+	
+// 	//anim6
+// 	var plant6= new Image();
+// 	plant6.src="http://uci.sentencesyntax.com/wp-content/uploads/2014/11/anim6three.png";
+// 	plant6.addEventListener('load', eventPlantLoaded , false);
+	
+// 	function eventPlantLoaded() {
+// 		drawScreen();
+// 	}
+	
+// 	function clearScreen() {
+// 		context.clearRect ( 0 , 0 , canvas.width, canvas.height )
+// 	}
+
+
+// 	function drawScreen() {
+// 		 clearScreen();
+// 		 context.drawImage(plant6, -520, 0);
+
+// 	}
+
+
+// }
+// ]]></script> 
+
+
+<script>
+$(document).ready(function(){
+    
+    var counter = 0,
+        $chars  = $(".test").children();
+
+    setInterval(function () {
+        $chars.eq(counter).effect( "bounce", {times:20}, 500 );
+        counter++;
+        if (counter >= $chars.length) {
+            counter = 0;
+        }
+    }, 250);
+   
+});
+</script>
+
+<style>
+p {
+    white-space: nowrap;
+}
+</style>
+
+
+</head>
+<body>
+
+<script>
+var html5_audiotypes={ 
+	"mp3": "audio/mpeg",
+	"mp4": "audio/mp4",
+	"ogg": "audio/ogg",
+	"wav": "audio/wav"
+}
+function createsoundbite(sound){
+	var html5audio=document.createElement('audio')
+	if (html5audio.canPlayType){
+		for (var i=0; i<arguments.length; i++){
+			var sourceel=document.createElement('source')
+			sourceel.setAttribute('src', arguments[i])
+			if (arguments[i].match(/\.(\w+)$/i))
+				sourceel.setAttribute('type', html5_audiotypes[RegExp.$1])
+			html5audio.appendChild(sourceel)
+		}
+		html5audio.load()
+		html5audio.playclip=function(){
+			html5audio.pause()
+			html5audio.currentTime=0
+			html5audio.play()
+		}
+		return html5audio
+	}
+	else{
+		return {playclip:function(){throw new Error("Your browser doesn't support HTML5 audio unfortunately")}}
+	}
+}
+var buttonClick=createsoundbite("http://uci.sentencesyntax.com/wp-content/uploads/2014/11/buttonPlant.mp3")
+</script>
+
+
+
+<br>
+<p>
+<span style="color: #0000ff;">Sentences</span>
+<span style="color: #800080;">grow.</span>
+</p>
+
+
+
+<p> 
+<span style="color: #008000;">These </span><span style="color: #0000ff;">sentences</span><span style="color: #800080;"> grow. </span>
+<br>
+<span style="color: #0000ff;"> Sentences </span><span style="color: #008000;"> on this page </span><span style="color: #800080;"> grow. </span>
+<br>
+<span style="color: #008000;"> Starting from seeds, </span><span style="color: #0000ff;"> sentences </span><span style="color: #800080;">  grow. </span>
+<br>
+<span style="color: #0000ff;"> Sentences </span><span style="color: #008000;"> that</span> 
+<marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="40" scrolldelay="300"> sprout</marquee><span style="color: #008000;"> modifiers</span> <span style="color: #800080;"> grow. </span>
+</p>
+
+<p> 
+<span style="color: #0000ff;"> Sentences </span><span style="color: #800080;">  grow </span><span style="color: #008000;"> easily.</span>
+<br>
+<span style="color: #0000ff;"> Sentences </span> <span style="color: #800080;">  grow </span><span style="color: #008000;"> before your eyes.</span>
+<br>
+<span style="color: #0000ff;"> Sentences </span><span style="color: #800080;">  grow </span><marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="65" scrolldelay="300"> to develop</marquee> <span style="color: #008000;">sturdy shapes.</span>
+<br>
+<span style="color: #0000ff;"> Sentences </span><span style="color: #800080;">  grow </span><span style="color: #008000;"> until they </span><marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="90" scrolldelay="300"> seem to gather</marquee><span style="color: #008000;"> a momentum of their own.</span>
+</p> 
+
+<p> 
+<span style="color: #008000;"> Some</span><span style="color: #0000ff;">  sentences</span><span style="color: #800080;">  grow</span><span style="color: #ff6600;"> branches.</span>
+<br>
+<span style="color: #0000ff;"> Sentences</span><span style="color: #800080;"> grow</span><span style="color: #008000;"> new </span><span style="color: #ff6600;">branches.</span>
+<br>
+<span style="color: #0000ff;"> Sentences</span> grow <span style="color: #ff6600;">branches</span><span style="color: #008000;"> of words.</span>
+<br>
+<span style="color: #0000ff;"> Sentences </span><span style="color: #800080;">grow </span> <span style="color: #ff6600;">branches</span> <marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="55" scrolldelay="300">unfolding </marquee><span style="color: #008000;"> fresh ideas.</span>
+<br>
+<span style="color: #0000ff;"> Sentences </span> grow <span style="color: #ff6600;">branches</span> <span style="color: #008000;">that <marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="78" scrolldelay="300"> may blossom </marquee><span style="color: #008000;"> with </span><marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="70" scrolldelay="300"> unexpected </marquee><span style="color: #008000;"> possibilities.</span>
+</p> 
+
+<p> 
+<marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="50" scrolldelay="300">Starting </marquee><span style="color: #008000;"> from seeds, these </span><span style="color: #0000ff;">sentences</span> <span style="color: #008000;">that </span><marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="40" scrolldelay="300">sprout </marquee><span style="color: #008000;"> modifiers</span><span style="color: #800080;"> grow </span><span style="color: #008000;">easily <br> before your eyes until they</span> <marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="90" scrolldelay="300">seem to gather </marquee><span style="color: #008000;"> a life of their own. </span> <marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="72" scrolldelay="300">To develop</marquee> <br><span style="color: #008000;"> sturdy shapes, some</span><span style="color: #0000ff;"> sentences </span><span style="color: #800080;"> grow </span> <span style="color: #008000;">new</span> <span style="color: #ff6600;">branches </span> <span style="color: #008000;">of words, <marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="72" scrolldelay="300">unfolding </marquee><br><span style="color: #008000;"> fresh ideas that </span><marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="80" scrolldelay="300"> may blossom </marquee><span style="color: #008000;"> with </span><marquee behavior="alternate" direction="up" style="color: #008000;" height="17" scrollamount="2" width="72" scrolldelay="300"> unexpected </marquee><span style="color: #008000;"> possibilities.
+</span>
+</p> 
+ 
+<br><br><br><br>
+No matter how big a sentence grows, it works with just four parts: <span style="color: #800080;"><em>verb</em></span>, <span style="color: #0000ff;"><em>subject</em></span>, <span style="color: #ff6600;"><em>completer</em></span>, and <span style="color: #008000;"><em>modifier</em></span>. <br>The next section will introduce each one.
+
+
+<!-- <br><br><br><br>
+<!-- Testing Bounce -->
+<!-- <div class="test"><span>s</span><span>o</span><span>m</span><span>e</span> <span>t</span><span>e</span><span>x</span><span>t</span></div>
+
+<marquee behavior="alternate" direction="up">Here is some bouncing text... bouncing up and down.</marquee>
+
+<marquee behavior="alternate" direction="up"></marquee> -->
+
+
+
+
+
+<!-- 
+********************************************
+********************************************
+********************************************
+********************************************
+
+Something Wrong with "loadIncrements" function/canvas because the sound effect works in the "Reset" button but not the others
+ 
+********************************************
+********************************************
+********************************************
+ -->
+<div>
+<button style="position: absolute; top: 445px; left:655px;" onclick="loadIncrements1(); buttonClick.playclip();" >1</button>
+<button style="position: absolute; top: 530px; left:655px;" onclick="loadIncrements2(); buttonClick.playclip();" >2</button>
+<button style="position: absolute; top: 630px; left:655px;" onclick="loadIncrements3(); buttonClick.playclip();" >3</button>
+<button style="position: absolute; top: 745px; left:655px;" onclick="loadIncrements4(); buttonClick.playclip();" >4</button>
+<button style="position: absolute; top: 840px; left:655px;" onclick="loadIncrements5(); buttonClick.playclip();" >5</button>
+<!-- <button style="position: absolute; top: 350px; left:250px;" onclick="loadIncrements6();">6</button> -->
+<button style="position: absolute; top: 900px; left:640px;" onclick="clearScreenAll(); buttonClick.playclip();">Reset</button>
+</div>
+
+<div style="position: absolute; top: 600px; left: 700px;">
+<canvas id="canvas" width="400" height="500" >
+ Your browser does not support the HTML 5 Canvas. 
+</canvas>
+</div>
+</body>
+</html>
+

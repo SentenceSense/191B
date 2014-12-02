@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Button Activated Animation</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="modernizr-1.6.min.js"></script>
+<script type="text/javascript">
+// <style>
+
+// #section1 {
+//     width:50px;
+//     float:left;
+//     padding:10px;
+// }
+
+// #section2 {
+//     width:50px;
+//     float:left;
+//     padding:10px;
+// }
+
+// </style>
+
+
+
+
+/*
+window.addEventListener('load', eventWindowLoaded, false);	
+function eventWindowLoaded() {
+
+	canvasApp();
+	
+}
+*/
+function canvasSupport () {
+  	return Modernizr.canvas;
+}
+
+/* To make incremental animation, would need more canvasApp() functions and multiple buttons? 
+or a way to have the same button animate multiple things/call different functions and then reset
+Try: <button onclick="canvasApp1(),canvasApp2(),canvasApp3()">Animate</button>
+*/
+
+function loadIncrements() {
+	  // var theCanvas = document.getElementById('canvas');
+	  // var context = theCanvas.getContext('2d');
+
+	canvasApp1();
+	// context.clearRect ( x , y , w , h );
+	canvasApp2();
+	// context.clearRect ( x , y , w , h );
+	canvasApp3();
+	// context.clearRect ( x , y , w , h );
+	canvasApp4();
+	// context.clearRect ( x , y , w , h );
+	canvasApp5();
+	// context.clearRect ( x , y , w , h );
+	canvasApp6();
+	// context.clearRect ( x , y , w , h );
+}
+
+
+function canvasApp1(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	//anim1
+	var plant1=new Image();
+	plant1.src="anim1three.png";
+	plant1.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim2
+	// var plant2=new Image();
+	// plant2.src="anim2.png";
+	// plant2.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim3
+	// var plant3=new Image();
+	// plant3.src="anim3.png";
+	// plant3.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim4
+	// var plant4=new Image();
+	// plant4.src="anim4.png";
+	// plant4.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim5
+	// var plant5=new Image();
+	// plant5.src="anim5three.png";
+	// plant5.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim6
+	// var plant6=new Image();
+	// plant6.src="anim6three.png";
+	// plant6.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+	
+
+	function drawScreen() {
+		
+		 context.drawImage(plant1, 0, 0);
+		 // context.drawImage(plant2, -90, 0);
+		 // context.drawImage(plant3, -180, 0);
+		 // context.drawImage(plant4, -270, 0);
+		 // context.drawImage(plant5, -400, 0);
+		 // context.drawImage(plant6, -520, 0);
+	}
+}
+
+function canvasApp2(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	//anim1
+	var plant1=new Image();
+	plant1.src="anim1three.png";
+	plant1.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim2
+	var plant2=new Image();
+	plant2.src="anim2.png";
+	plant2.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim3
+	// var plant3=new Image();
+	// plant3.src="anim3.png";
+	// plant3.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim4
+	// var plant4=new Image();
+	// plant4.src="anim4.png";
+	// plant4.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim5
+	// var plant5=new Image();
+	// plant5.src="anim5three.png";
+	// plant5.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim6
+	// var plant6=new Image();
+	// plant6.src="anim6three.png";
+	// plant6.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+	
+
+	function drawScreen() {
+		
+		 context.drawImage(plant1, 0, 0);
+		 context.drawImage(plant2, -90, 0);
+		 // context.drawImage(plant3, -180, 0);
+		 // context.drawImage(plant4, -270, 0);
+		 // context.drawImage(plant5, -400, 0);
+		 // context.drawImage(plant6, -520, 0);
+
+	}
+}
+
+
+function canvasApp3(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	//anim1
+	var plant1=new Image();
+	plant1.src="anim1three.png";
+	plant1.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim2
+	var plant2=new Image();
+	plant2.src="anim2.png";
+	plant2.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim3
+	var plant3=new Image();
+	plant3.src="anim3.png";
+	plant3.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim4
+	// var plant4=new Image();
+	// plant4.src="anim4.png";
+	// plant4.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim5
+	// var plant5=new Image();
+	// plant5.src="anim5three.png";
+	// plant5.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim6
+	// var plant6=new Image();
+	// plant6.src="anim6three.png";
+	// plant6.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+	
+
+	function drawScreen() {
+		
+		 context.drawImage(plant1, 0, 0);
+		 context.drawImage(plant2, -90, 0);
+		 context.drawImage(plant3, -180, 0);
+		 // context.drawImage(plant4, -270, 0);
+		 // context.drawImage(plant5, -400, 0);
+		 // context.drawImage(plant6, -520, 0);
+
+	}
+}
+
+
+function canvasApp4(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	//anim1
+	var plant1=new Image();
+	plant1.src="anim1three.png";
+	plant1.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim2
+	var plant2=new Image();
+	plant2.src="anim2.png";
+	plant2.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim3
+	var plant3=new Image();
+	plant3.src="anim3.png";
+	plant3.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim4
+	var plant4=new Image();
+	plant4.src="anim4.png";
+	plant4.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim5
+	// var plant5=new Image();
+	// plant5.src="anim5three.png";
+	// plant5.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim6
+	// var plant6=new Image();
+	// plant6.src="anim6three.png";
+	// plant6.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+	
+
+	function drawScreen() {
+		
+		 context.drawImage(plant1, 0, 0);
+		 context.drawImage(plant2, -90, 0);
+		 context.drawImage(plant3, -180, 0);
+		 context.drawImage(plant4, -270, 0);
+		 // context.drawImage(plant5, -400, 0);
+		 // context.drawImage(plant6, -520, 0);
+
+	}
+}
+
+function canvasApp5(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	//anim1
+	var plant1=new Image();
+	plant1.src="anim1three.png";
+	plant1.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim2
+	var plant2=new Image();
+	plant2.src="anim2.png";
+	plant2.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim3
+	var plant3=new Image();
+	plant3.src="anim3.png";
+	plant3.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim4
+	var plant4=new Image();
+	plant4.src="anim4.png";
+	plant4.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim5
+	var plant5=new Image();
+	plant5.src="anim5three.png";
+	plant5.addEventListener('load', eventPlantLoaded , false);
+	
+	// //anim6
+	// var plant6=new Image();
+	// plant6.src="anim6three.png";
+	// plant6.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+	
+
+	function drawScreen() {
+		
+		 context.drawImage(plant1, 0, 0);
+		 context.drawImage(plant2, -90, 0);
+		 context.drawImage(plant3, -180, 0);
+		 context.drawImage(plant4, -270, 0);
+		 context.drawImage(plant5, -400, 0);
+		 // context.drawImage(plant6, -520, 0);
+
+	}
+}
+
+function canvasApp6(){
+	
+
+	if (!canvasSupport()) {
+			 return;
+  	}else{
+	    var theCanvas = document.getElementById('canvas');
+	    var context = theCanvas.getContext('2d');
+	}
+	
+	//anim1
+	var plant1=new Image();
+	plant1.src="anim1three.png";
+	plant1.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim2
+	var plant2=new Image();
+	plant2.src="anim2.png";
+	plant2.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim3
+	var plant3=new Image();
+	plant3.src="anim3.png";
+	plant3.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim4
+	var plant4=new Image();
+	plant4.src="anim4.png";
+	plant4.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim5
+	var plant5=new Image();
+	plant5.src="anim5three.png";
+	plant5.addEventListener('load', eventPlantLoaded , false);
+	
+	//anim6
+	var plant6=new Image();
+	plant6.src="anim6three.png";
+	plant6.addEventListener('load', eventPlantLoaded , false);
+	
+	function eventPlantLoaded() {
+		drawScreen();
+	}
+	
+
+	function drawScreen() {
+		
+		 context.drawImage(plant1, 0, 0);
+		 context.drawImage(plant2, -90, 0);
+		 context.drawImage(plant3, -180, 0);
+		 context.drawImage(plant4, -270, 0);
+		 context.drawImage(plant5, -400, 0);
+		 context.drawImage(plant6, -520, 0);
+
+	}
+
+}
+
+function clearScreen() {
+		//CLEARS THE SCREEN ONCE CYCLES THROUGH IT ALL
+		context.clearRect ( x , y , w , h );
+	}
+
+
+</script> 
+</head>
+<body>
+<!-- <button onclick="loadIncrements();">Animate</button> -->
+<!-- <button onclick="canvasApp1();canvasApp2();canvasApp3();canvasApp4();canvasApp5();canvasApp6();">Animate</button> -->
+
+<!-- <div  id="section1">
+<button onclick="canvasApp1();">1</button></div>
+<div  id="section2">
+<button onclick="canvasApp2();">2</button></div>
+<div  id="section3">
+<button onclick="canvasApp3();">3</button></div>
+<div  id="section4">
+<button onclick="canvasApp4();">4</button></div>
+<div  id="section5">
+<button onclick="canvasApp5();">5</button></div>
+<div  id="section6">
+<button onclick="canvasApp6();">6</button></div> -->
+
+<!-- STYLE POSITIONG NOT SUPPORTED IN HTML5... -->
+<button style="position: absolute; top -50px;  left:50px;"  onclick="canvasApp1();">1</button>
+<button style="position: absolute; top -100px; left:100px;" onclick="canvasApp2();">2</button>
+<button style="position: absolute; top -150px; left:150px;" onclick="canvasApp3();">3</button>
+<button style="position: absolute; top -200px; left:200px;" onclick="canvasApp4();">4</button>
+<button style="position: absolute; top -250px; left:250px;" onclick="canvasApp5();">5</button>
+<button style="position: absolute; top -300px; left:300px;" onclick="canvasApp6();">6</button>
+
+<!-- <button onclick="clearScreen();">Animate</button> -->
+<!-- ****************************** -->
+<!-- CURRENTLY IT CALLS ALL THE FUNCTIONS AT THE SAME TIME, NOT SEQUENTIALLY !!!! -->
+<!-- ****************************** -->
+
+<!-- <div style="position: absolute; top: 50px; left: 100px;">
+ -->
+<div style="position: absolute; top: 50px; left: 50px;">
+<canvas id="canvas" width="1000" height="500" >
+ Your browser does not support the HTML 5 Canvas. 
+</canvas>
+</div>
+</body>
+</html>
+
